@@ -12,7 +12,7 @@ let path={
   },
   src:{
     html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
-    css: source_folder + "/scss/style.scss",
+    css: [source_folder + "/scss/style.scss", source_folder + "/scss/all.css"],
     js: [source_folder + "/js/script.js", source_folder + "/js/cursor.js"],
     img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
     fonts: source_folder + "/fonts/*.ttf",
@@ -20,7 +20,7 @@ let path={
   },
   watch:{
     html: source_folder + "/*.html",
-    css: source_folder + "/scss/**/*.scss",
+    css: source_folder + "/scss/**/*.{scss,css}",
     js: source_folder + "/js/**/*.js",
     img: source_folder + "/img/**/*.{jpeg,png,svg,gif,ico,webp}",
     ua: source_folder + "/ua/*.html",
