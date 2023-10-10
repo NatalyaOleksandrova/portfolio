@@ -14,7 +14,7 @@ let path={
     html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
     css: [source_folder + "/scss/style.scss", source_folder + "/scss/all.css"],
     js: [source_folder + "/js/script.js", source_folder + "/js/cursor.js"],
-    img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
+    img: source_folder + "/img/**/*.{jpg,png,svg,gif,webp}",
     fonts: source_folder + "/fonts/*.ttf",
     ua: [source_folder + "/ua/*.html", "!" + source_folder + "/ua/_*.html"],
   },
@@ -22,7 +22,7 @@ let path={
     html: source_folder + "/*.html",
     css: source_folder + "/scss/**/*.{scss,css}",
     js: source_folder + "/js/**/*.js",
-    img: source_folder + "/img/**/*.{jpeg,png,svg,gif,ico,webp}",
+    img: source_folder + "/img/**/*.{jpeg,png,svg,gif,webp}",
     ua: source_folder + "/ua/*.html",
   },
   clean: "./" + project_folder + "/"
