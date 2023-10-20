@@ -381,8 +381,7 @@ body {
 }
 
 .about {
-  height: 100%;
-  padding-bottom: 100px;
+  height: 700px;
   background: linear-gradient(-45deg, rgba(219, 171, 156, 0.8980392157), rgba(218, 153, 178, 0.9098039216), rgba(161, 194, 206, 0.8470588235), rgba(174, 223, 210, 0.8901960784));
   background-size: 400% 400%;
   -webkit-animation: gradient 15s ease infinite;
