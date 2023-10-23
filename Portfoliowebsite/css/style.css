@@ -1346,7 +1346,9 @@ body {
   body .ht-cursor {
     display: none;
   }
-
+    .main {
+        background-size: cover; 
+    }
   .top_block {
     padding: 20px;
     -webkit-box-align: center;
