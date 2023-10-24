@@ -469,10 +469,7 @@ body {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: -webkit-transform 1.5s ease 0s;
-  transition: -webkit-transform 1.5s ease 0s;
-  transition: transform 1.5s ease 0s;
-  transition: transform 1.5s ease 0s, -webkit-transform 1.5s ease 0s;
+
 }
 
 .right-animation._active {
@@ -480,6 +477,10 @@ body {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
+    -webkit-transition: -webkit-transform 1.5s ease 0s;
+  transition: -webkit-transform 1.5s ease-out, opacity 1s ease-out;
+  transition: transform 1.5s ease-out, opacity 1s ease-out;
+  transition: transform 1.5s ease-out, opacity 1s ease-out, -webkit-transform 1.5s ease-out, opacity 1s ease-out;
 }
 
 .about-texts {
