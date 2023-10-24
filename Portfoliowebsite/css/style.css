@@ -1347,7 +1347,7 @@ body {
     display: none;
   }
     .main {
-        background-size: cover; 
+          background-attachment: scroll;
     }
   .top_block {
     padding: 20px;
